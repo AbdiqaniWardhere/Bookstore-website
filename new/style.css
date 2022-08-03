@@ -1,0 +1,153 @@
+
+body{
+    background-color: beige;
+}
+
+.popular_books{
+    margin-top: 150px;
+    width: 100%;
+    height: 560px;
+    /* background-color: #D9176D; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+.popular_cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+
+    /* background-color: #EBA452; */
+   
+}
+
+.popular-heading{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 55px;
+    color: #321F48;
+    margin-left: 10%;
+}
+
+
+.popular-heading 
+.popular-line{
+    height: 60px;
+    width: 7px;
+    background-color: #412A5C;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.popular_cards{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    width: 100%;
+}
+
+.popular_cards .p-card{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.p-one .p-one-il{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.p-card .p-one{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    padding: 18px 15px;
+    width: 260px;
+    height: 436px;
+    line-height: 18px;
+    background-color:white;
+    align-items: center;
+    border-radius: 11px;
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+.p-card .p-one :hover{
+    /* background-color: #D9176D; */
+}
+
+.p-card .p-one img{
+    width: 180px;
+    border-radius: 11px;
+    width: 260px;
+    object-fit:fill;
+}
+
+.p-card .p-one label{
+    font-size: 16px;
+    font-weight: 500;
+}
+/* .p-card .p-one h2{
+    font-size: 20px;
+    max-width: 180px;
+    background-color: #D9176D;
+    max-height: 190px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    
+    
+} */
+
+.p-one h2{
+    font-size: 18px;
+    max-width: 220px;
+    
+    
+    
+    align-items: center;
+    justify-content: center;
+    /* background-color: #D9176D; */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 280px;
+    background-color: #EBA452;
+}
+.p-one-rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+    
+
+}
+
+.p-one-rate .rate{
+    color: #EBA452;
+}
+
+.popular_books2{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    
+}
+

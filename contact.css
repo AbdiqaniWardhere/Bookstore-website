@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+header{
+    background-color: #321F48;
+    height: 550px;
+    width: 100%;
+}
+
+
+nav  {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 95%;
+    height: 80px;
+    position: absolute;
+    margin-left: 38px;
+    z-index: 1;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right img{
+    height: 90px;
+    width: 90px;
+}
+.right label{
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+
+.center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 165px;
+    width: 42.3%;
+}
+
+.center-right{
+    height: 40px;
+    border-radius: 8px 0 0 8px;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+
+    
+}
+.center img{
+    height: 50px;
+    width: 50px;
+}
+
+.center .burger-icon{
+    height: 35px;
+    width: 35px;
+    margin-right: 2px;
+}
+
+.center label a{
+    font-size: 15px;
+    text-decoration: none;
+    padding-top: -10px;
+    font-weight: 600;
+    
+}
+.center .center-right {
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    
+}
+.center .center-left{
+    position: absolute;
+}
+.center button{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-left: 35rem;
+    
+    border-radius: 0 8px 8px 0;
+    
+}
+.center button :hover{
+    background-color: #EBA452;
+    height: 40px;
+    border-radius: 0 8px 8px 0;
+    color: white;
+    
+} 
+
+.center input{
+    height: 40px;
+    width: 30rem;
+    background-color: #F0F0F0;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding-left: 10px;
+    font-weight: 500;
+    
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 30px;
+    width: 20%;
+    margin-left: -136.2px;
+    
+   
+}
+
+.left button{
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+    
+}
+.left button :hover{
+    background-color: #EBA452;
+    border-radius: 50px;
+}   
+
+.left button img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 45px;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    margin-top: 11%;
+    gap: 110px; 
+    margin-left: 15%;
+    margin-right: 10%;   
+
+}
+
+.hero .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero .contact label{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hero .contact p{
+    font-size: 20px;
+}
+
+.hero .social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.social-icons a{
+    color: white;
+    
+}
+
+.social-icons  a :hover{
+    opacity: 1;
+    color: #D9176D;
+}
+
+.hero .social-icons i{
+    transform: scale(2);
+}
+
+/* end of end of header */
+/* end of end of header */
+/* end of end of header */
+/* end of end of header */
+/* end of end of header */
+
+.content-contact{
+    margin-top: 50px;
+    margin-left: 15%;
+    /* margin-right: 10%;  */
+    display: flex;
+    gap: 300px;
+    
+}
+
+
+.contect-left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.left-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-contact h2{
+    font-size: 30px;
+}
+
+.left-contact p{
+    font-size: 25px;
+    font-weight: 600;
+    
+
+}
+
+.left-contact-list{
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    margin-top: 30px;
+
+}
+
+
+.list-one{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.list-one-num{
+    background-color: #D9176D;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50pc;
+}
+
+
+.line{
+    background-color: #321F48;
+    height: 100px;
+    width: 3px;
+    margin-left: 13px;
+}
+
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 20px;
+    margin-right: 15%;
+    margin-top: -300px;
+    gap: 40px;
+    transform: scale(1.1);
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+form input{
+    height: 45px;
+    width: 450px;
+    padding: 16px 12px;
+    border: none;
+    background-color: #F5F5F5;
+    border-radius: 2px;
+    outline: none;
+    font-weight: 500;
+}
+
+form textarea{
+    padding-left: 10px;
+    padding-top: 10px;
+    border: none;
+    background-color: #F5F5F5;
+    border-radius: 2px;
+    outline: none;
+    font-weight: 500;
+
+}
+
+form button{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #c66a01;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.right-data{
+    font-size: 20px;
+    font-weight: 700;
+}
+/* 
+
+
+
+THIS IS THE BEGGINING OF FOOTER STYLE
+
+
+
+
+*/
+
+
+.all-footer{
+    height: 450px;
+    background-color:#321F48;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    margin-top: 120px;
+    padding-top: 50px;
+    color: white;
+}
+
+
+.all-footer .footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.left-desc-logo{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* background-color: #c66a01; */
+}
+
+.left-desc-logo label{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.left-desc-p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.footer-left-social{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer-left-social .social-icons{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    
+}
+
+.footer-left-social .social-icons i{
+    background-color: #D9176D;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.all-footer .footer-center{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.all-footer .footer-center {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.footer-center-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    opacity: .9;
+}
+
+.footer-center-links a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.all-footer .footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 25px;
+    font-weight: 700;
+
+
+    
+}
+
+.footer-right-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+
+.footer-right-icons .right-icon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.footer-right-icons .right-icon i{
+    padding: 10px;
+    background-color: #c66a01;
+    color: white;
+    border-radius: 50px;
+}
+
+.allright{
+    display: flex;
+    flex-direction: column;
+    background-color: #321F48;
+    color: white;
+    
+
+}
+
+
+.allright-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+/* caart css */

@@ -1,0 +1,1023 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuun bookstore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <!-- <link rel="stylesheet" href="cart.css"> -->
+    <script src="https://kit.fontawesome.com/eed92ec3fd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="user-popup">
+        <div class="container">
+            <div class="header">
+                <h2>Create Account</h2>
+                <div class="header-pop">
+                    <i id="popup_close" class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <form id="form" class="form">
+                <div class="form-control">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="florinpop17" id="username" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="username">Email</label>
+                    <input type="email" placeholder="a@florin-pop.com" id="email" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="username">Password</label>
+                    <input type="password" placeholder="Password" id="password"/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="username">Password check</label>
+                    <input type="password" placeholder="Password two" id="password2"/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="right">
+                <img src="icons/Nuun-logo.svg" alt="Nuun Bookstore logo" style="height: 90px;">
+                <label class="logo-name">NUUN BOOKSTORE</label>
+
+
+            </div>
+            <div class="center">
+                <div class="center-right">
+                    <img class="burger-icon" src="icons/burger-icon.svg" alt="">
+                    <label><a href="">Menu</a></label>
+                </div>
+                
+                <input type="search" placeholder="Search books here" name="search Box">
+                <button class=" center-left search-buton"><img src="icons/search-icon.svg" alt=""></button>
+            <!-- <div class="center-left">
+                
+            </div> -->
+
+            </div>
+            <div class="left">
+                <button><a href="" id="cart_id"><img src="icons/cart-icon.svg" alt="cart-icon"></a></button> 
+                <button><img src="icons/wishlist-icon.svg" alt="wishlist-icon"></button>
+                <button id="user"><img src="icons/user-icon.svg" alt="user-icon"></button>
+
+            </div>
+        </nav>
+
+        
+            <div class="hero">
+                    <div class="right-hero">
+                       <p class="english">The largest <span class="p-english">Online <br> Book</span> store in somalia.</p>
+                       <p class="somali">Dukaanka online buuggaagta <br> ee ugu weyn somalia.</p>
+                       <button>Go to collections --></button>
+                    </div>
+
+                    <div class="left-hero">
+                        <div class="img-scroll">
+                            <div class="large">
+                                <img src="images/The power of habit.jpg"  style="height: 22rem; width: 16rem;" alt="Why nations fails">
+                                <!-- <div class="desc">
+                                    <label>%30</label>    
+                                </div> -->
+                            </div>
+                            <div class="medium">
+
+                                <div class="medium-img">
+                                    <img src="images/why nation fails.jpg" style="height: 18rem; width: 13rem;" alt="Why nations fails">
+                                </div>
+
+                                <!-- <div class="desc">
+                                    <label class="lbl-medium">%30</label>
+                                </div> -->
+
+                            </div>
+                            <div class="small">
+                                <img src="images/Tariikhda afka iyo bulshada soomaaliyeed.jpg" style="height: 16rem; width: 11rem;" alt="Why nations fails">
+                                <!-- <div class="desc">
+                                    <label>%30</label>
+    
+    
+                                </div> -->
+    
+                            </div>
+                        </div>
+
+                        <div class="bt-scroll">
+                            <div class="lrg">
+
+                            </div>
+
+                            <div class="mdm">
+
+                            </div>
+                            <div class="sml">
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        
+    </header>
+    <main>
+        <section class="prove">
+            <div class="icons">
+                <div class="single-icons">
+                    <img src="icons/quick.png" lt="">
+                    <h3>Quick <br> Delivery</h3>
+                </div>
+                <div class="single-icons">
+                    <img src="icons/secure.png" alt="">
+                    <h3>Secure <br> Peymant</h3>
+                </div>
+                <div class="single-icons">
+                    <img src="icons/best.png" alt="">
+                    <h3>Best <br> Quality</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="best-selling">
+            <h2>Bestselling Books</h2>
+            <div class="best-selling-content">
+                <div class="best-selling-cards">
+                    <img src="images/Afka hooyo waa  hodan.jpg" height="350px" width="230px" alt="Afka hooyo waa  hodan">
+
+                    <div class="card-ctive">
+                        <h3>Afka hooyo waa hodan</h3>
+                        
+                    </div>
+
+                </div>
+                <div class="best-selling-cards">
+                    <img src="images/Lacaga cypto.jpg" height="350px" width="230px" alt="Lacaga cypto">
+
+                    <div class="card-ctive">
+                        <h3>Afka hooyo waa hodan</h3>
+                        
+                    </div>
+
+                </div>
+                <div class="best-selling-cards">
+                    <img src="images/why nation fails.jpg" height="350px" width="230px" alt="why nation fails">
+
+                    <div class="card-ctive">
+                        <h3>Afka hooyo waa hodan</h3>
+                        
+                    </div>
+
+                </div>
+                <div class="best-selling-cards">
+                    <img src="images/كيف تغرس مفهوما؟.jpg" height="350px" width="230px" alt="كيف تغرس مفهوما">
+
+                    <div class="card-ctive">
+                        <h3>Afka hooyo waa hodan</h3>
+                        
+                    </div>
+
+                </div>
+                <div class="best-selling-cards">
+                    <img src="images/Garaadso intaanan guursan.jpg" height="350px" width="230px"  alt="Garaadso intaanan guursan">
+
+                    <div class="card-ctive">
+                        <h3>Afka hooyo waa hodan</h3>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section> -->
+
+        <section class="popular_books">
+            <div class="popular-heading">
+                <div class="popular-line">
+
+                </div>
+                <h1>Popular books</h1>
+            </div>
+            <div class="popular_cards">
+                
+                <div class="p-card">
+                    <div class="p-one">
+                        <div class="p-one-il">
+                            <a href="pages/aabehodan.html"><img src="images/Aabo hodan ah iyo aabe faqiir ah.jpg" height="290px"  alt="Aabo hodan ah iyo aabe faqiir ah"></a>
+                        <a href="pages/1.html"><h2>Aabo hodan ah iyo aabe faqiir ah.</h2></a>
+                        <!-- <label for="">Dr. jamaal sahal</label> -->
+                        </div>
+                        <div class="p-one-price">
+                            <label for="">$15</label>
+                            <label for=""><strike>$19</strike></label>
+                        </div>
+                        
+                        <div class="p-one-rate">
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <!-- <div class="money">
+                                <label class="price" style="font-weight:700 ; font-size: 18px;" for="">$12</label>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="p-one">
+                        <div class="p-one-il">
+                            <a href="pages/afkahooyo.html"><img src="images/Afka hooyo waa  hodan.jpg" height="290px"  alt="Afka hooyo waa  hodan"></a>
+                        <a href="pages/afkahooyo.html"><h2>Afka hooyo waa  hodan.</h2></a>
+                        <!-- <label for="">Dr. jamaal sahal</label> -->
+                        </div>
+                        <div class="p-one-price">
+                            <label for="">$15</label>
+                            <label for=""><strike>$19</strike></label>
+                        </div>
+                        
+                        <div class="p-one-rate">
+                            <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <!-- <div class="money">
+                                <label class="price" style="font-weight:700 ; font-size: 18px;" for="">$12</label>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="p-one">
+                        <div class="p-one-il">
+                            <a href="pages/danjire.html"><img src="images/Danjire.jpg" height="290px"  alt="Danjire"></a>
+                        
+                        <a href="pages/danjire.html"><h2>Danjire.</h2></a>
+                        <!-- <label for="">Dr. jamaal sahal</label> -->
+                        </div>
+
+                        <div class="p-one-price">
+                            <label for="">$15</label>
+                            <label for=""><strike>$19</strike></label>
+                        </div>
+                        
+                        <div class="p-one-rate">
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <!-- <div class="money">
+                                <label class="price" style="font-weight:700 ; font-size: 18px;" for="">$12</label>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="p-one">
+                        <div class="p-one-il">
+                            <a href="pages/Lacagacypto copy.html"><img src="images/Lacaga cypto.jpg" height="290px"  alt="Lacaga cypto"></a>
+                        
+                        <a href="pages/Lacagacypto copy.html"><h2>Lacaga cypto.</h2></a>
+                        <!-- <label for="">Dr. jamaal sahal</label> -->
+                        </div>
+                        <div class="p-one-price">
+                            <label for="">$15</label>
+                            <label for=""><strike>$19</strike></label>
+                        </div>
+                        
+                        <div class="p-one-rate">
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <!-- <div class="money">
+                                <label class="price" style="font-weight:700 ; font-size: 18px;" for="">$12</label>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="p-one">
+                        <div class="p-one-il">
+                            <a href="pages/Qaanuunka maxkamada.html"><img src="images/Qaanuunka maxkamada.jpg" height="290px"  alt="Qaanuunka maxkamada"></a>
+                        <a href="pages/Qaanuunka maxkamada.html"><h2>Qaanuunka maxkamada.</h2></a>
+                        <!-- <label for="">Dr. jamaal sahal</label> -->
+                        </div>
+                        <div class="p-one-price">
+                            <label for="">$15</label>
+                            <label for=""><strike>$19</strike></label>
+                        </div>
+                        
+                        <div class="p-one-rate">
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <!-- <div class="money">
+                                <label class="price" style="font-weight:700 ; font-size: 18px;" for="">$12</label>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="popular_books2">
+            <div class="popular_cards">
+                
+                <div class="p-card">
+                    <div class="p-one">
+                        <div class="p-one-il">
+                            <a href="pages/gunaanad.html"><img src="images/Gunaanad.jpg" height="290px"  alt="Gunaanad"></a>
+                            <a href="pages/gunaanad.html"><h2>Gunaanad.</h2></a>
+                        <!-- <label for="">Dr. jamaal sahal</label> -->
+                        </div>
+                        <div class="p-one-price">
+                            <label for="">$15</label>
+                            <label for=""><strike>$19</strike></label>
+                        </div>
+                        
+                        <div class="p-one-rate">
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <!-- <div class="money">
+                                <label class="price" style="font-weight:700 ; font-size: 18px;" for="">$15</label>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="p-one">
+                        <div class="p-one-il">
+                            <a href="pages/loomaoyan.html"><img src="images/Loo'ma ooyaan.jpg" height="290px"  alt="Loo'ma ooyaan"></a>
+                        <a href="pages/loomaoyan.html"><h2>Loo'ma ooyaan.</h2></a>
+                        <!-- <label for="">Cabdicaziiz Guudcade</label> -->
+                        </div>
+
+                        <div class="p-one-price">
+                            <label for="">$15</label>
+                            <label for=""><strike>$19</strike></label>
+                        </div>
+                        
+                        <div class="p-one-rate">
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <!-- <div class="money">
+                                <label class="price" style="font-weight:700 ; font-size: 18px;" for="">$16</label>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="p-one">
+                        <div class="p-one-il">
+                            <a href="pages/what happened to you.html"><img src="images/what happened to you.jpg" height="290px"  alt="what happened to you"></a>
+                            <a href="pages/what happened to you.html"><h2>what happened to you.</h2></a>
+                        <!-- <label for="">Bruce d.perry</label> -->
+                        </div>
+                        
+                        <div class="p-one-price">
+                            <label for="">$15</label>
+                            <label for=""><strike>$19</strike></label>
+                        </div>
+
+                        <div class="p-one-rate">
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <!-- <div class="money">
+                                <label class="price" style="font-weight:700 ; font-size: 18px;" for="">$12</label>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="p-one">
+                        <div class="p-one-il">
+                            <a href="pages/Garaadso intaanan guursan.html"><img src="images/Garaadso intaanan guursan.jpg" height="290px"  alt="Garaadso intaanan guursan"></a>
+                            <a href="pages/Garaadso intaanan guursan.html"><h2>Garaadso intaanan guursan.</h2></a>
+                        <!-- <label for="">Mubarak hadi</label> -->
+                        </div>
+                        <div class="p-one-price">
+                            <label for="">$15</label>
+                            <label for=""><strike>$19</strike></label>
+                        </div>
+                        
+                        <div class="p-one-rate">
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <!-- <div class="money">
+                                <label class="price" style="font-weight:700 ; font-size: 18px;" for="">$12</label>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="p-one">
+                        <div class="p-one-il">
+                            <a href="pages/Hal tisqaaday.html"><img src="images/Hal tisqaaday.jpg" height="290px"  alt="Hal tisqaaday"></a>
+                        <a href="pages/Hal tisqaaday.html"><h2>Hal tisqaaday.</h2></a>
+                        <!-- <label for="">Maxamed Baashe</label> -->
+                        </div>
+                        <div class="p-one-price">
+                            <label for="">$15</label>
+                            <label for=""><strike>$19</strike></label>
+                        </div>
+                        
+                        <div class="p-one-rate">
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <!-- <div class="money">
+                                <label class="price" style="font-weight:700 ; font-size: 18px;" for="">$25</label>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section>
+
+        <section class="flash-sale" >
+            <div class="all-flash-sale">
+                <div class="flash-right">
+                    <div class="flash-heading">
+                        <h1>Flash sale</h1>
+                        <img src="icons/FLASH ICON.png" alt="flash icon">
+                    </div>
+                    <div class="flash-p">
+                        <p>Ka faa'iidayso qiimo dhimista<br>
+                            waxay ku idlaanaysaa waqti kooban. </p>
+                    </div>
+                    <div class="flash-counter">
+                        <div class="hour">
+                            <label for="">20</label>
+                            <label for="">Hour</label>
+                        </div>
+                        <div class="munite">
+                            <label for="">20</label>
+                            <label for="">Minute</label>
+                        </div>
+                        <div class="second"> 
+                            <label for="">20</label>
+                            <label for="">Second</label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="flash-left">
+                    <div class="flash-card">
+                        <div class="flash-card-image">
+                            <a href="pages/The power of habit.html"><img src="images/The power of habit.jpg" height="290px" alt="The power of habit"></a>
+                        </div>
+
+                        <div class="flash-card-content">
+
+                            <div class="flash-card-rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <div class="flash-card-heading">
+                                <a href="pages/The power of habit.html"><h1>The power of habit</h1></a>
+                                <a href="pages/The power of habit.html"><label for="">james warson</label></a>
+                            </div>
+
+                            <div class="flash-card-discount">
+                                <label class="current-price" for="">$15</label>
+                                
+                                <label class="desc-price" for=""><strike>$19</strike></label>
+                            </div>
+
+                            <div class="button">
+                                <button>Add to cart <img src="icons/cart-white.png" height="15px" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flash-card">
+                        <div class="flash-card-image">
+                            <a href="pages/Xeerka soomalida.html"><img src="images/Xeerka soomalida iyo calmaaniyada.jpg" height="290px" alt="Xeerka soomalida iyo calmaaniyada"></a>
+                        </div>
+
+                        <div class="flash-card-content">
+
+                            <div class="flash-card-rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <div class="flash-card-heading">
+                                <a href="pages/Xeerka soomalida.html"><h1>Xeerka soomalida iyo calmaaniyada.</h1></a>
+                                <a href="pages/Xeerka soomalida.html"><label for="">james warson</label></a>
+                            </div>
+
+                            <div class="flash-card-discount">
+                                <label class="current-price" for="">$15</label>
+                                
+                                <label class="desc-price" for=""><strike>$19</strike></label>
+                            </div>
+
+                            <div class="button">
+                                <button>Add to cart <img src="icons/cart-white.png" height="15px" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flash-card">
+                        <div class="flash-card-image">
+                            <a href="pages/Shiicadda geeska.html"><img src="images/Shiicadda geeska africa.jpg" height="290px" alt="Shiicadda geeska africa."></a>
+                        </div>
+
+                        <div class="flash-card-content">
+
+                            <div class="flash-card-rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <div class="flash-card-heading">
+                                <a href="pages/Shiicadda geeska.html"><h1>Shiicadda geeska africa.</h1></a>
+                                <a href="pages/Shiicadda geeska.html"><label for="">james warson</label></a>
+                            </div>
+
+                            <div class="flash-card-discount">
+                                <label class="current-price" for="">$15</label>
+                                
+                                <label class="desc-price" for=""><strike>$19</strike></label>
+                            </div>
+
+                            <div class="button">
+                                <button>Add to cart <img src="icons/cart-white.png" height="15px" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+
+
+        <section class="popular_books3">
+            <div class="popular_books3_heading">
+                <div class="popular_books3_line">
+                </div>
+                <div class="popular_books3_h1">
+                    <h1>Best Books</h1>
+                </div>
+            </div>
+
+
+            <div class="popular_cards">
+                
+                <div class="p-card">
+                    <div class="p-one">
+                        <div class="p-one-il">
+                            <a href="pages/gunaanad.html"><img src="images/Gunaanad.jpg" height="290px"  alt="Gunaanad"></a>
+                        <a href="pages/gunaanad.html"><h2>Gunaanad.</h2></a>
+                        <!-- <label for="">Dr. jamaal sahal</label> -->
+                        </div>
+                        <div class="p-one-price">
+                            <label for="">$15</label>
+                            <label for=""><strike>$19</strike></label>
+                        </div>
+                        
+                        <div class="p-one-rate">
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <!-- <div class="money">
+                                <label class="price" style="font-weight:700 ; font-size: 18px;" for="">$15</label>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="p-one">
+                        <div class="p-one-il">
+                            <a href="pages/loomaoyan.html"><img src="images/Loo'ma ooyaan.jpg" height="290px"  alt="Loo'ma ooyaan"></a>
+                            <a href="pages/loomaoyan.html"><h2>Loo'ma ooyaan.</h2></a>
+                        <!-- <label for="">Cabdicaziiz Guudcade</label> -->
+                        </div>
+
+                        <div class="p-one-price">
+                            <label for="">$15</label>
+                            <label for=""><strike>$19</strike></label>
+                        </div>
+                        
+                        <div class="p-one-rate">
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <!-- <div class="money">
+                                <label class="price" style="font-weight:700 ; font-size: 18px;" for="">$16</label>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="p-one">
+                        <div class="p-one-il">
+                            <a href="pages/what happened to you.html"><img src="images/what happened to you.jpg" height="290px"  alt="what happened to you"></a>
+                            <a href="pages/what happened to you.html"><h2>what happened to you.</h2></a>
+                        <!-- <label for="">Bruce d.perry</label> -->
+                        </div>
+                        
+                        <div class="p-one-price">
+                            <label for="">$15</label>
+                            <label for=""><strike>$19</strike></label>
+                        </div>
+
+                        <div class="p-one-rate">
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <!-- <div class="money">
+                                <label class="price" style="font-weight:700 ; font-size: 18px;" for="">$12</label>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="p-one">
+                        <div class="p-one-il">
+                            <a href="pages/Garaadso intaanan guursan.html"><img src="images/Garaadso intaanan guursan.jpg" height="290px"  alt="Garaadso intaanan guursan"></a>
+                            <a href="pages/Garaadso intaanan guursan.html"><h2>Garaadso intaanan guursan.</h2></a>
+                        <!-- <label for="">Mubarak hadi</label> -->
+                        </div>
+                        <div class="p-one-price">
+                            <label for="">$15</label>
+                            <label for=""><strike>$19</strike></label>
+                        </div>
+                        
+                        <div class="p-one-rate">
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <!-- <div class="money">
+                                <label class="price" style="font-weight:700 ; font-size: 18px;" for="">$12</label>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="p-one">
+                        <div class="p-one-il">
+                            <a href="pages/Hal tisqaaday.html"><img src="images/Hal tisqaaday.jpg" height="290px"  alt="Hal tisqaaday"></a>
+                            <a href="pages/Hal tisqaaday.html"><h2>Hal tisqaaday.</h2></a>
+                        <!-- <label for="">Maxamed Baashe</label> -->
+                        </div>
+                        <div class="p-one-price">
+                            <label for="">$15</label>
+                            <label for=""><strike>$19</strike></label>
+                        </div>
+                        
+                        <div class="p-one-rate">
+                            <div class="rate">
+                                <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <!-- <div class="money">
+                                <label class="price" style="font-weight:700 ; font-size: 18px;" for="">$25</label>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section>
+
+ <!-- beggining of the testmonio section        -->
+
+
+        <section class="testimo">
+
+            <div class="testimo-left">
+                <label for="">Testimonials</label>
+                <p>Waa qayb kamid ah macaamishena<br>
+                    waxa ay ka dhaheen adeega aan u qabanay.</p>
+
+                    <div class="testimo-image">
+                        <div class="tet1"><img src="/" alt=""></div>
+                        <div class="tet2"><img src="" alt=""></div>
+                        <div class="tet3"><img src="" alt=""></div>
+                        <div class="tet4"><img src="" alt=""></div>
+                    </div>
+            </div>
+            
+
+            <div class="testimo-right">
+                <div class="coment">
+                    <div class="coment-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>Waa qayb kamid ah macaamishena<br>
+                        waxa ay ka dhaheen adeega aan u qabanay.</p>
+
+                        <div class="coment-person">
+                            <label>Abdiqani</label>
+                            <img src="picture/1.jpg" height="83px" width="83px" alt="">
+                        </div>
+                </div>
+
+            </div>
+
+        </section> 
+
+
+        <section class="email">
+            <div class="email-heading">
+                <p>Connect with our <br>
+                    newsletter for new Books.</p>
+            </div>
+
+            <div class="email-box">
+                <input type="email" placeholder="abcd@gmail.com" >
+                <input class="button" type="submit" value="SEND">
+            </div>
+
+        </section>
+
+        <section class="all-footer">
+            <div class="footer-left">
+                <div class="footer-left-desc">
+                    <div class="left-desc-logo">
+                        <img src="icons/Nuun-logo.svg" style="border-radius:50px;" alt="" height="70px" width="70px">
+                        <label for="">NUUN BOOKSTORE</label>
+                    </div>
+                </div>
+                <div class="left-desc-p">
+                    <p>Waa qayb kamid ah macaamishena<br> 
+                        waxa ay ka dhaheen adeega aan u qabanay<br>
+                        Waa qayb kamid ah macaamishena waxa.</p>
+                </div>
+
+                <div class="footer-left-social">
+                    <label for="">Follow us</label>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+ 
+            </div>
+            <div class="footer-center">
+                <label for="">Quick Link</label>
+                <div class="footer-center-links">
+                    <label for=""><a href="">Home</a></label>
+                    <label for=""><a href="">Books</a></label>
+                    <label for=""><a href="">About</a></label>
+                    <label for=""><a href="contact.html">Contact</a></label>
+                </div>
+
+            </div>
+            <div class="footer-right">
+                <label for="">Get in touch with us</label>
+                <div class="footer-right-icons">
+                    <div class="right-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <label for="">Moqadishu,banadir<br>
+                            Somalia, km4 street.</label>
+                    </div>
+                    <div class="right-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                        <label for="">Nuunbookstore@gmail.com</label>
+                    </div>
+                    <div class="right-icon">
+                        <i class="fa-solid fa-phone"></i>
+                        <label for="">252619587335</label>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="allright">
+            <hr>
+            <div class="allright-right">
+                <label for="">Nuunbookstore - @All rights reserved </label>
+            </div>
+        </section>
+    </main>
+    <!-- <footer>
+        <section class="all-footer">
+            <div class="footer-left">
+                <div class="footer-left-desc">
+                    <div class="left-desc-logo">
+                        <img src="icons/Nuun-logo.svg" alt="" height="90px" width="90px">
+                        <label for="">NUUN BOOKSTORE</label>
+                    </div>
+                    <p>Waa qayb kamid ah macaamishena<br> 
+                        waxa ay ka dhaheen adeega aan u qabanay<br>
+                        Waa qayb kamid ah macaamishena waxa.</p>
+                </div>
+
+                <div class="footer-left-social">
+                    <label for="">Follow us</label>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-center">
+
+            </div>
+            <div class="footer-right">
+
+            </div>
+        </section>
+
+        
+    </footer> -->
+
+    <!-- <section class="all">
+        <div class="all-cart">
+            <section class="main">
+                <div class="hed">
+                    <h2>Shoping Cart</h2>
+                    <i id="close_btn" class="fa-solid fa-xmark"></i>
+                </div>
+        
+                
+                    <table style="width: 100%;">
+                        <thead>
+                            <tr>
+                                <td>remove</td>
+                                <td>Image</td>
+                                <td>Product</td>
+                                <td>Price</td>
+                                <td>Quantity</td>
+                                <td>Subtotal</td>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+                            <tr id="tr">
+                                <td><i class="fa-solid fa-xmark"></i></td>
+                                <td><img src="images/Aleel.jpg" width="80px" height="110" alt=""></td>
+                                <td><h4>Aleel</h3></td>
+                                <td><label id="price_feild">20</label></td>
+                                <td><input type="number" value="1" id="quantity_feild"></td>
+                                <td><label id="total_feild">20</label></td>
+                            </tr>
+                             <tr>
+                                <td><i class="fa-solid fa-xmark"></i></td>
+                                <td><img src="images/Aabo hodan ah iyo aabe faqiir ah.jpg" width="80px" height="110" alt=""></td>
+                                <td><h4>Aabo hodan ah iyo aabe faqiir ah</h3></td>
+                                <td><label>25</label></td>
+                                <td><input type="number" value="1"></td>
+                                <td><label>25</label></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa-solid fa-xmark"></i></td>
+                                <td><img src="images/Afka hooyo waa  hodan.jpg" width="80px"  height="110" alt=""></td>
+                                <td><h4>Afka hooyo waa  hodan</h3></td>
+                                <td><label>16</label></td>
+                                <td><input type="number" value="1"></td>
+                                <td><label>16</label></td>
+                            </tr> 
+                        </tbody>
+                    </table>
+                
+            </section>
+        
+            <section class="order-total">
+                <div class="coupon">
+                    <input type="text" placeholder="Enter your coupon">
+                    <button>Apply</button>
+                </div>
+        
+                <div class="total">
+                    <h3>Cart Totals</h3>
+                    <table>
+                        <tr>
+                            <td>Cart Subtotal</td>
+                            <td>$335</td>
+                        </tr>
+                        <tr>
+                            <td>Shipping</td>
+                            <td>Free</td>
+                        </tr>
+                        <tr>
+                            <td><Strong>Total</Strong></td>
+                            <td><strong>$355</strong></td>
+                        </tr>
+                    </table>
+        
+                    <button class="">Proceed to Checkout</button>
+                </div>
+            </section>
+        </div>
+    </section> -->
+
+    <section class="done">
+        <div class="thanks">
+            <i class="fa-solid fa-circle-check"></i>
+            <h2>Your Done</h2>
+
+            <button class="done-close">Ok</button>
+        </div>
+    </section>
+
+    <script src="form.js"></script>
+    <script src="Pages/add.js"></script>
+    
+</body>
+</html>
